@@ -1,0 +1,39 @@
+📘 HOW TO CREATE A DISCORD BOT AND GET THE TOKEN
+
+Follow these steps to create your bot and get its token:
+
+1. 🔧 Open Discord Developer Portal:
+   - Visit: https://discord.com/developers/applications
+   - Log in with your Discord account.
+   - Click on “New Application”.
+   - Give your bot a name and click “Create”.
+
+2. 🤖 Create the Bot:
+   - In the sidebar, click “Bot”.
+   - Click “Add Bot” > “Yes, do it!”
+
+3. 🔑 Get Your Bot Token:
+   - In the "Bot" tab, click “Reset Token” or “Copy Token”.
+   - Copy the token and paste it in your config.json file like this:
+     "bot_token": "PASTE_YOUR_TOKEN_HERE"
+
+   ⚠️ IMPORTANT: Never share your bot token with anyone!
+
+4. ⚙️ Enable Privileged Intents (Required for most bots):
+   - In the same “Bot” tab, scroll down and enable:
+     - SERVER MEMBERS INTENT
+     - MESSAGE CONTENT INTENT
+
+5. 🔗 Invite Bot to Your Server:
+   - Go to the “OAuth2” tab > “URL Generator”.
+   - Under scopes, check:
+     ✅ bot
+     ✅ applications.commands
+   - Under permissions, choose what your bot needs (e.g., Read Messages, Send Messages, Manage Channels).
+   - Copy the generated URL and open it in your browser.
+   - Select your server and click “Authorize”.
+
+6. ✅ Done! Your bot is now created and ready to be run using Python.
+
+TIP: To run the bot, make sure you installed required libraries and filled in config.json properly.
+

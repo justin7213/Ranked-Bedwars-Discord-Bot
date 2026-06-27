@@ -1,0 +1,40 @@
+🚀 DISCORD BOT SETUP GUIDE
+
+Requirement:
+1. ✅ Python must be installed
+   Download from: https://www.python.org/downloads
+
+2. ✅ Install Required Libraries
+   - Open Command Prompt
+   - Run: pip install -r requirements.txt
+
+3. ✅ Configure Your Discord Information
+   - Open the file: config.json
+   - Replace the values with your actual Discord IDs.
+   - Make sure Developer Mode is enabled on your Discord account.
+
+4. ✅ Run main.py
+   - Open Command Prompt
+   - do cd{your rankedbw.rar file located) ex: cd C:\Users\User\Desktop\rankedbw
+   - do python3 main.py
+   Note: The bot will run as long your device/PC active. It is not 24/7. The data will automatically saved as .json files.
+
+Information needed in config.json:
+
+{
+  "guild_id": Your Discord Server ID,
+  "category_id": The category ID where game channels will be created,
+  "score_channel_id": The channel ID where the game scoring result will be sent,
+  "register_channel_id": The channel ID where users can register,
+  "lobby_text_channel_id": A text channel used to inform bugs or errors,
+  "queue_channel_id": Voice channel ID used as a queue (e.g. 4v4 waiting room),
+  "gamelog_id": Channel ID where game start logs will be sent,
+  "bot_token": "Your bot token here (make sure to keep it in double quotes)" If you don't know how to get a bot token, please read "discord_token_guide.txt")
+}
+
+Example:
+  "bot_token": "2a2aAIWJIAWjfafkAKfAawa"
+
+⚠️ DO NOT share your bot_token with anyone.
+
+Any Bugs Please Contact Jy#5334.
