@@ -1,7 +1,7 @@
-Hey, this is my first ever program that I made it with my own logic and AI wrote it for me. 
-The discord bot have the ranked bedwars system that include
+Hey everyone! This is my first-ever program. I designed the logic myself and used AI to help write it.
+The Discord bot features a Ranked Bedwars system that includes:
 - Player & Game Database
-- Game Scoring with ELO System
+- Game Scoring with an ELO System
 - Matchmaking
 
-Feel free to use it for your own use. Please read all .txt files. Thankyou
+Feel free to use it! Make sure to read all the .txt files. Thank you!
